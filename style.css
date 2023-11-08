@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+body{
+    font-family:"MOntderrst", sans-serif;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 15px;
+}
+ 
+header p{
+    font-size: 16px;
+}
+
+.Survey{
+    width: 400px;
+    margin: 80px auto;
+    background: rgb(112, 116, 129);
+    color: white;
+    height: 200px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.4);
+}
+.Survey h3{
+    margin: 8px;
+    padding-top: 10px;
+}
+.Survey li{
+  margin: 10px;
+  cursor: pointer;
+}
+.Survey li:hover{
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    margin: 0 auto;
+    padding: 4px;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+
+.end{
+    background:  royalblue;;
+    color: white;
+    width: 40%;
+    margin: 15% auto;
+    padding:  20px 0;
+    border-radius: 3px;
+    border-bottom: 1px 1px 7px rgba(0,0, 0,0.4);
+}
+.end p{
+    padding: 10px;
+}
+ 
+.end a{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    background: rgb(61,61,61);
+    outline: none;
+}
+
+.enda:hover{
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.404);
+    transition: 0.3s;
+}
+
+.q1{
+    display: block;
+}
+
+.q2{
+    display: none;
+}
+
+.q3{
+    display: none;
+}
+
+.end{
+    display: none;
+}
